@@ -1,0 +1,25 @@
+# https://fundamentals.gitgood.training/labs/cleanup
+
+git init
+git status
+git show
+git add .
+git commit -m 'comment about edit'
+    git commit --amend
+git log --oneline
+git reset HEAD^ (can add '--hard' to force reset)
+    git reset ORIG_HEAD --hard (go to head branch.)
+git restore filename.filetype
+
+git switch/checkout [main/master] (depending on version of git)
+git remote
+git push
+git clone
+git pull
+git merge
+git branch
+git fetch
+git rebase
+
+echo "Some information here" >> file.filetype (sends " " data to file)
+touch filename.filetype - create file in working directory on Mac
